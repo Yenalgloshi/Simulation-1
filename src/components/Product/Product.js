@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-const Product = ({ product }) => (
+const Product = (props) => (
     <div>
-        <p>{product}</p>
+        <p>Product</p>
     </div>)
 
 export default Product;

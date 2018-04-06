@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Product from './component/product/Product';
+import Product from '../product/Product';
 
 class Dashboard extends Component {
     constructor(){
@@ -17,7 +17,7 @@ class Dashboard extends Component {
   render() {
     return (
       <div>
-          {Product}
+          <Product />
       </div> 
     )
   }

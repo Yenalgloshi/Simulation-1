@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
-const Header = ({ Header }) => (
+const Header = (props) => (
     <div>
-        <p>{Header}</p>
+        <p>Header</p>
     </div>)
 
 export default Header;
