@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
-import Product from './component/Product/Product';
+import Product from './component/Product';
 
-export default class Dashboard extends Component {
+class Dashboard extends Component {
+    constructor(){
+        super()
+        this.state = {
+            name: '',
+            price: '',
+            img: ''
+        }
+
+    }
+
+
+
   render() {
     return (
       <div>
-          <p> Dashboard Component </p>
+          {product}
       </div> 
     )
   }
 }
+
+export default Dashboard;
